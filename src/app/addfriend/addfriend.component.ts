@@ -14,7 +14,7 @@ export class AddfriendComponent implements OnInit {
     DescribeYourFriend:""
 
   }
-  constructor(private friendapi:FriendviewService) { }
+  constructor(private friendservice:FriendviewService) { }
 
   ngOnInit(): void {
   }
